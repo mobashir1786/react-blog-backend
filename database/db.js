@@ -1,4 +1,4 @@
-const Bollywood =[
+const data =[
             {
             "id": 1,
             "title": "Shah Rukh Khan",
@@ -436,4 +436,4 @@ const Bollywood =[
         }
              
         ]
-  module.exports= Bollywood;
+  module.exports= data;
