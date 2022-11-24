@@ -20,4 +20,6 @@ app.use(food);
 app.use(fitness);
 
 
-app.listen(6500)
+app.listen(process.env.PORT||6500,()=>{
+    console.log("app is running on 6500 port");
+});
